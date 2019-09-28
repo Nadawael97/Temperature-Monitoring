@@ -1,0 +1,39 @@
+Dependencies for Project 'project', Target 'project': (DO NOT MODIFY !)
+F (.\project.c)(0x5AFF2510)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\.. -I D:\MC-Fall\LCD_Project --c99-I"D:\MC-Fall\Keil 2\ARM\RV31\INC"-I"D:\MC-Fall\Keil 2\ARM\CMSIS\Include"-I"D:\MC-Fall\Keil 2\ARM\INC\Luminary"-D__UVISION_VERSION="524" -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\project.o --omf_browse .\rvmdk\project.crf --depend .\rvmdk\project.d)
+I (D:\MC-Fall\Keil 2\ARM\ARMCC\include\stdbool.h)(0x588BD7A4)
+I (D:\MC-Fall\Keil 2\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\..\inc/hw_memmap.h)(0x5A9515A6)
+I (..\..\driverlib/adc.h)(0x5A951598)
+I (..\..\driverlib/gpio.h)(0x5A951598)
+I (..\..\driverlib/pin_map.h)(0x5A951598)
+I (..\..\driverlib/sysctl.h)(0x5A951598)
+I (..\..\driverlib/uart.h)(0x5A951598)
+I (utils/uartstdio.h)(0x5A9515AB)
+I (D:\MC-Fall\Keil 2\ARM\ARMCC\include\stdarg.h)(0x588BD7A4)
+I (D:\MC-Fall\LCD_Project\LCDHeader.h)(0x5AFF22A1)
+I (D:\MC-Fall\LCD_Project\tm4c123gh.h)(0x59F0F109)
+F (.\startup_rvmdk.S)(0x5AFCB02A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I"D:\MC-Fall\Keil 2\ARM\RV31\INC"-I"D:\MC-Fall\Keil 2\ARM\CMSIS\Include"-I"D:\MC-Fall\Keil 2\ARM\INC\Luminary"--pd "__UVISION_VERSION SETA 524"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (.\utils\uartstdio.c)(0x5A9515AB)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\.. -I D:\MC-Fall\LCD_Project --c99-I"D:\MC-Fall\Keil 2\ARM\RV31\INC"-I"D:\MC-Fall\Keil 2\ARM\CMSIS\Include"-I"D:\MC-Fall\Keil 2\ARM\INC\Luminary"-D__UVISION_VERSION="524" -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\uartstdio.o --omf_browse .\rvmdk\uartstdio.crf --depend .\rvmdk\uartstdio.d)
+I (D:\MC-Fall\Keil 2\ARM\ARMCC\include\stdbool.h)(0x588BD7A4)
+I (D:\MC-Fall\Keil 2\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (D:\MC-Fall\Keil 2\ARM\ARMCC\include\stdarg.h)(0x588BD7A4)
+I (..\..\inc/hw_ints.h)(0x5A9515A6)
+I (..\..\inc/hw_memmap.h)(0x5A9515A6)
+I (..\..\inc/hw_types.h)(0x5A9515A6)
+I (..\..\inc/hw_uart.h)(0x5A9515A6)
+I (..\..\driverlib/debug.h)(0x5A951598)
+I (..\..\driverlib/interrupt.h)(0x5A951598)
+I (..\..\driverlib/rom.h)(0x5A951598)
+I (..\..\driverlib/rom_map.h)(0x5A951598)
+I (..\..\driverlib/sysctl.h)(0x5A951598)
+I (..\..\driverlib/uart.h)(0x5A951598)
+I (..\..\utils/uartstdio.h)(0x5A9515AB)
+F (D:\MC-Fall\LCD_Project\Delay.c)(0x5AFF1917)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\.. -I D:\MC-Fall\LCD_Project --c99-I"D:\MC-Fall\Keil 2\ARM\RV31\INC"-I"D:\MC-Fall\Keil 2\ARM\CMSIS\Include"-I"D:\MC-Fall\Keil 2\ARM\INC\Luminary"-D__UVISION_VERSION="524" -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\delay.o --omf_browse .\rvmdk\delay.crf --depend .\rvmdk\delay.d)
+I (D:\MC-Fall\LCD_Project\tm4c123gh6pm.h)(0x59F0F160)
+I (D:\MC-Fall\LCD_Project\LCDHeader.h)(0x5AFF22A1)
+F (D:\MC-Fall\LCD_Project\initialization.c)(0x5AFF22B7)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\.. -I D:\MC-Fall\LCD_Project --c99-I"D:\MC-Fall\Keil 2\ARM\RV31\INC"-I"D:\MC-Fall\Keil 2\ARM\CMSIS\Include"-I"D:\MC-Fall\Keil 2\ARM\INC\Luminary"-D__UVISION_VERSION="524" -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\initialization.o --omf_browse .\rvmdk\initialization.crf --depend .\rvmdk\initialization.d)
+I (D:\MC-Fall\LCD_Project\tm4c123gh.h)(0x59F0F109)
+I (D:\MC-Fall\LCD_Project\LCDHeader.h)(0x5AFF22A1)
+F (..\..\driverlib\rvmdk\driverlib.lib)(0x5A951598)()
+F (..\..\sensorlib\rvmdk\sensorlib.lib)(0x5A9515A7)()
+F (.\readme.txt)(0x5A9515A6)()
